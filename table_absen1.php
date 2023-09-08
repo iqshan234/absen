@@ -59,10 +59,9 @@
 				</ul>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Scanner QR Code <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-                <li><a href="scan1.php"><span class="glyphicon glyphicon-qrcode"></span> Scan QR Code Mini Gold</a></li>
-                <li><a href="scan2.php"><span class="glyphicon glyphicon-qrcode"></span> Scan QR Code Produksi</a></li>
-				</ul>
-            
+        <li><a href="dzuhur.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Dzuhur</a></li>
+                <li><a href="ashar.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Ashar</a></li>
+				</ul>            
 			</ul>
 		  </div>
 		</nav>

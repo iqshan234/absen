@@ -77,6 +77,7 @@
 				<ul class="dropdown-menu">
         <li><a href="export.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Dzuhur Karyawan Mini Gold</a></li>
                 <li><a href="export1.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Ashar Karyawan Mini Gold</a></li>
+                <li><a href="export2.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Ijin Shalat Karyawan Mini Gold</a></li>
 				</ul>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Scanner QR Code <span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -90,9 +91,9 @@
        <br><br><br><br><br>
        <div class="container">
             <div class="row">
-                <div class="col-md-4" style="padding:10px;background:#fff;border-radius: 5px;" id="divvideo">
+                <div class="col-md-4" style="padding:10px;background:#fff;border-radius: 20px;" id="divvideo">
 					<center><p class="login-box-msg"> <i class="glyphicon glyphicon-camera"></i> Scan Disini</p></center>
-                    <video id="preview" width="100%" style="border-radius:10px;"></video>
+                    <video id="preview" width="100%"  style="border-radius:20px;"></video>
 					<br>
 					<br>
 					<?php
@@ -119,7 +120,6 @@
 					}
 				  ?>
                 </div>
-
                  <div class="col-md-8">
                 <form action="database3.php" method="post" class="form-horizontal" style="border-radius: 5px;padding:10px;background:#fff;" id="divvideo">
                      <i class="glyphicon glyphicon-qrcode"></i> <label>Absen Shalar Ashar Scan Dengan QR Code || Create Shan</label> <p id="time"></p>

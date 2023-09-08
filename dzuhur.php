@@ -77,6 +77,7 @@
 				<ul class="dropdown-menu">
         <li><a href="export.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Dzuhur Karyawan Mini Gold</a></li>
                 <li><a href="export1.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Ashar Karyawan Mini Gold</a></li>
+                <li><a href="export2.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Ijin Shalat Karyawan Mini Gold</a></li>
 				</ul>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Scanner QR Code <span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -129,8 +130,7 @@
         <p>Data Absen Shalat Dzuhur</p>         
         <table id="example1" class="table table-bordered">
                     <thead>
-                        <tr>
-                            
+                        <tr>                           
                             <td>Nama</td>
                             <td>Absen Shalat</td>
                             <td>Tanggal Shalat</td>

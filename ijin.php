@@ -77,6 +77,7 @@
 				<ul class="dropdown-menu">
         <li><a href="export.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Dzuhur Karyawan Mini Gold</a></li>
                 <li><a href="export1.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Shalat Ashar Karyawan Mini Gold</a></li>
+                <li><a href="export2.php"><span class="glyphicon glyphicon-download"></span> Export Data Table Absen Ijin Shalat Karyawan Mini Gold</a></li>
 				</ul>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Scanner QR Code <span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -144,8 +145,8 @@
       <label for="alasan">Alasan Ijin</label>
      <BR>
        <input type="checkbox" name="checkbox1" value="1"> Malas Shalat<br>
-       <input type="checkbox" name="checkbox2" value="1"> Gak Mau Shalat<br>
-       <input type="checkbox" name="checkbox3" value="1"> Udah Pernah Shalat<br>
+       <input type="checkbox" name="checkbox2" value="1"> Lagi Meeting<br>
+       <input type="checkbox" name="checkbox3" value="1"> Tidak Masuk Kantor<br>
       <input type="checkbox" name="checkbox4" value="1"> Cape Shalat Terus <br>
        <input type="checkbox" name="checkbox5" value="1"> Lagi Berhalangan Shalat<br>
       <input type="checkbox" name="checkbox6" value="1"> Lagi Di Luar Kantor <br>
@@ -170,8 +171,8 @@
                             <td> <h5>Shalat Dzuhur</h5></td>
                             <td> <h5>Shalat Ashar</h5></td>
                             <td><h5> Malas Shalat</h5></td>
-                            <td><h5> Gak Mau Shalat</h5></td>
-                            <td> <h5>Udah Pernah Shalat</h5></td>
+                            <td><h5> Lagi Meeting</h5></td>
+                            <td> <h5>Tidak Masuk Kantor</h5></td>
                             <td><h5> Cape Shalat Terus</h5></td>
                             <td><h5> Lagi Berhalangan Shalat</h5></td>
                             <td><h5> Lagi Di Luar Kantor</h5></td>

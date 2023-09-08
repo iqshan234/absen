@@ -13,15 +13,15 @@
     if(isset($_POST['nama'])){
         
         $text =$_POST['nama'];
-		$dzuhur = isset($_POST['dzuhur']) ? '√' : 'X';
-		$ashar = isset($_POST['ashar']) ? '√' : 'X';
-		$checkbox1 = isset($_POST['checkbox1']) ? '√' : 'X';
-		$checkbox1 = isset($_POST['checkbox1']) ? '√'  : 'X';
-        $checkbox2 = isset($_POST['checkbox2']) ? '√'  : 'X';
-        $checkbox3 = isset($_POST['checkbox3']) ? '√'  : 'X';
-		$checkbox4 = isset($_POST['checkbox4']) ? '√'  : 'X';
-        $checkbox5 = isset($_POST['checkbox5']) ? '√'  : 'X';
-        $checkbox6 = isset($_POST['checkbox6']) ? '√'  : 'X';
+		$dzuhur = isset($_POST['dzuhur']) ? 'V' : 'X';
+		$ashar = isset($_POST['ashar']) ? 'V' : 'X';
+		$checkbox1 = isset($_POST['checkbox1']) ? 'V' : 'X';
+		$checkbox1 = isset($_POST['checkbox1']) ? 'V'  : 'X';
+        $checkbox2 = isset($_POST['checkbox2']) ? 'V'  : 'X';
+        $checkbox3 = isset($_POST['checkbox3']) ? 'V'  : 'X';
+		$checkbox4 = isset($_POST['checkbox4']) ? 'V'  : 'X';
+        $checkbox5 = isset($_POST['checkbox5']) ? 'V'  : 'X';
+        $checkbox6 = isset($_POST['checkbox6']) ? 'V'  : 'X';
 		$date = date('Y-m-d');
 		date_default_timezone_set('Asia/Jakarta');
 		$time = date('H:i:s');
