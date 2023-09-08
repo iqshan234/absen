@@ -65,6 +65,11 @@
   color: black; 
   border: 2px solid #008CBA;
 }
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FF4500;
+}
 </style>
 </head>
 </head>
@@ -88,17 +93,16 @@
 				</ul>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Absen Shalat <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-                <li><a href="scan1.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Dzuhur</a></li>
-                <li><a href="scan2.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Ashar</a></li>
+                <li><a href="dzuhur.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Dzuhur</a></li>
+                <li><a href="ashar.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Ashar</a></li>
 				</ul>
         </li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Absen Shalat <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-                <li><a href="scan1.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Dzuhur</a></li>
-                <li><a href="scan2.php"><span class="glyphicon glyphicon-qrcode"></span> Absen Shalat Ashar</a></li>
+                <li><a href="table_absen1.php"><span class="glyphicon glyphicon-qrcode"></span> Table Absen Shalat Dzuhur</a></li>
+                <li><a href="table_absen2.php"><span class="glyphicon glyphicon-qrcode"></span> Table Absen Shalat Ashar</a></li>
 				</ul>
-        </li>
-       
+        </li>       
 			</ul>
 		  </div>
 		</nav>
@@ -108,8 +112,9 @@
             <div class="col-md-20" style="padding:10px;background:#F5F5F5;border-radius: 5px;">
             <img src="logo-minigold-small.png"> 
                 <center> 
-                    <a href="dzuhur.php"><button class="button button2" style="resize:none;width:500px;height:100px;">Absen Shalat Dzuhur</button></a><br>
+                <a href="ijin.php"><button class="button button3" style="resize:none;width:500px;height:100px;">Ijin Absen Shalat</button></a><br>
                     <a href="ashar.php"><button class="button button1" style="resize:none;width:500px;height:100px;">Absen Shalat Ashar</button></a>
+                    <a href="dzuhur.php"><button class="button button2" style="resize:none;width:500px;height:100px;">Absen Shalat Dzuhur</button></a>
                 </center><br><br>
 </div>
 </div>
